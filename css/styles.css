@@ -3981,6 +3981,23 @@ td:last-child {
     fill: var(--color-3);
 }
 
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * about
+ * ------------------------------------------------------------------- */
+@media screen and (max-width: 800px) {
+    .s-about {
+        padding-top: var(--vspace-4);
+        padding-bottom: var(--vspace-5);
+    }
+
+    .s-about__content-imgbg {
+        grid-column: 1 / span 4;
+        width: 60vw;
+    }
+}
+
+/* skills sections */
 .skills-division {
     display: flex;
     justify-content: center;
@@ -4040,22 +4057,6 @@ td:last-child {
     font-size: 2rem;
     color: #555;
 }
-/* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
-@media screen and (max-width: 800px) {
-    .s-about {
-        padding-top: var(--vspace-4);
-        padding-bottom: var(--vspace-5);
-    }
-
-    .s-about__content-imgbg {
-        grid-column: 1 / span 4;
-        width: 60vw;
-    }
-}
-
 /* certificates */
 .certifications {
     padding: 60px 40px 100px 40px;
