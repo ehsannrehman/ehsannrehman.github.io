@@ -4004,19 +4004,24 @@ td:last-child {
     background: var(--color-3);
 }
 
-.skills-section h2 {
-    margin: 10px;
-}
 .skills-section {
     width: 100%;
     padding: 60px;
     max-width: 1850px;
 }
 
-.skills-section h2 {
+.projects-section {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 40px;
+    max-width: 1800px;
+}
+
+.skills-section, .projects-section h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
+    margin: 10px;
 }
 
 .skill {

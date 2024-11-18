@@ -79,6 +79,9 @@
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
+  .wrapper i {
+    display: none;
+  }
 }
 
 .card {
