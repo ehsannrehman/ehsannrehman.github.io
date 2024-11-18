@@ -4031,6 +4031,21 @@ td:last-child {
     padding: 0!important;
     color: #555;
     font-size: 2rem;
+
+}
+
+.skill-title-i {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    padding: 0!important;
+    color: #555;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.skill-title-i img {
+    margin: 0;
 }
 
 .skill-box {
@@ -4847,4 +4862,18 @@ td:last-child {
 
 .contact-list li {
     padding-left: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .skills-division {
+        flex-direction: column;
+    }
+
+    .skills-section:first-child {
+        padding-bottom:20px !important;
+    }
+
+    .skills-section:last-child {
+        padding-top:0 !important;
+    }
 }
