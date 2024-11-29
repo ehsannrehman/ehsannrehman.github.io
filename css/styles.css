@@ -4384,13 +4384,13 @@ projects section */
 .projects-list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     gap: 20px;
 }
 
 /* General Section Styling */
 .projects-section {
-    padding: 20px;
     font-family: Arial, sans-serif;
     align-items: center;
     justify-content: center;
@@ -4399,30 +4399,29 @@ projects section */
 /* Featured Project */
 .featured-project {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
     margin-bottom: 40px;
-    align-items: center;
     border: 1px solid #ddd;
     background-color: #F0F0F0;
     width: 90%;
+    justify-content: end;
 }
 
 .featured-project img {
-    max-width: 100%;
-    width: 50%;
-    height: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: 0;
     object-fit: cover;
-    margin-right: 20px;
 }
 
 .project-info {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* This will push the button to the bottom */
     align-items: center; /* This centers the paragraph and heading */
     padding: 20px;
-    height: 100%; /* Ensure the container takes up full height available */
+    width: calc(100% - 400px);
 }
 
 
@@ -4434,6 +4433,7 @@ projects section */
 .project-info p {
     font-size: 2rem;
     color: #666;
+    text-align: center;
 }
 
 .project-info a {
@@ -4452,19 +4452,22 @@ projects section */
 
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
     .featured-project {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     .featured-project img {
         width: 100%;
-        margin: 0 0 20px 0;
+        max-width: 100%;
     }
 
     .project-info {
         text-align: center;
+        width: 100%;
     }
 }
 
