@@ -4431,9 +4431,9 @@ projects section */
 }
 
 .project-info p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #666;
-    text-align: center;
+    text-align: justify;
 }
 
 .project-info a {
@@ -4468,6 +4468,10 @@ projects section */
     .project-info {
         text-align: center;
         width: 100%;
+    }
+
+    .project-info p {
+        text-align: center;
     }
 }
 
