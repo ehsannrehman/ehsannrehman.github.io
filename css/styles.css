@@ -4404,12 +4404,13 @@ projects section */
     margin-bottom: 40px;
     border: 1px solid #ddd;
     background-color: #F0F0F0;
-    width: 90%;
+    width: 100%;
     justify-content: end;
 }
 
 .featured-project img {
-    max-width: 400px;
+    width: 500px;
+    max-width: 500px;
     height: 400px;
     margin: 0;
     object-fit: cover;
