@@ -4017,7 +4017,8 @@ td:last-child {
     max-width: 1800px;
 }
 
-.skills-section, .projects-section h2 {
+.skills-section,
+.projects-section h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
@@ -4033,17 +4034,16 @@ td:last-child {
 .skill-title {
     font-size: 16px;
     margin-bottom: 5px;
-    padding: 0!important;
+    padding: 0 !important;
     color: #555;
     font-size: 2rem;
-
 }
 
 .skill-title-i {
     display: flex;
     gap: 10px;
     font-size: 16px;
-    padding: 0!important;
+    padding: 0 !important;
     color: #555;
     font-size: 2rem;
     margin-bottom: 5px;
@@ -4069,7 +4069,7 @@ td:last-child {
 
 .progress-bar .fill {
     height: 100%;
-    background: var( --color-1);
+    background: var(--color-1);
     transition: width 0.5s ease;
 }
 
@@ -4142,13 +4142,7 @@ td:last-child {
     }
 }
 
-
-
 /* end certicates */
-
-
-
-
 
 /* ===================================================================
  * # EXPERTISE
@@ -4372,13 +4366,10 @@ td:last-child {
     margin-top: var(--vspace-2);
 }
 
-
-
 /* 
 projects section */
 #projects {
     background-color: #212722;
-    
 }
 
 .projects-list {
@@ -4403,28 +4394,23 @@ projects section */
     padding: 0;
     margin-bottom: 40px;
     border: 1px solid #ddd;
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
     width: 100%;
     justify-content: end;
 }
 
 .featured-project img {
-    width: 500px;
-    max-width: 500px;
-    height: 400px;
     margin: 0;
-    object-fit: cover;
 }
 
 .project-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* This will push the button to the bottom */
+    justify-content: center; /* This will push the button to the bottom */
     align-items: center; /* This centers the paragraph and heading */
     padding: 20px;
     width: calc(100% - 400px);
 }
-
 
 .project-info h4 {
     font-size: 3rem;
@@ -4450,7 +4436,6 @@ projects section */
 .project-info a:hover {
     background-color: #5140d0;
 }
-
 
 /* Responsive Design */
 @media (max-width: 1400px) {
@@ -4982,10 +4967,10 @@ projects section end */
     }
 
     .skills-section:first-child {
-        padding-bottom:20px !important;
+        padding-bottom: 20px !important;
     }
 
     .skills-section:last-child {
-        padding-top:0 !important;
+        padding-top: 0 !important;
     }
 }
